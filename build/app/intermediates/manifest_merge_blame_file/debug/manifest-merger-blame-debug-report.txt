@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lyokone.locationexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:4:5-66
+14-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:location] /Users/divignanesh/Desktop/projects/location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+15-->[:location] /Users/divignanesh/Desktop/projects/location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+16-->[:location] /Users/divignanesh/Desktop/projects/location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+16-->[:location] /Users/divignanesh/Desktop/projects/location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:6:5-37:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:7:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/6b399c2363bb098ebde1725d903cbda0/core-1.1.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:9:9-43
+28        android:label="Location Example" >
+28-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:8:9-41
+29        <activity
+29-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:10:9-20:20
+30            android:name="io.flutter.embedding.android.FlutterActivity"
+30-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:10:19-78
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
+31-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:13:13-106
+32            android:hardwareAccelerated="true"
+32-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:14:13-47
+33            android:launchMode="singleTop"
+33-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:11:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:12:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:15:13-55
+36            <intent-filter>
+36-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:16:13-19:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:17:17-68
+37-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:17:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:18:17-76
+39-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:18:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:21:9-27:20
+43            android:name="com.lyokone.locationexample.EmbedderV1Activity"
+43-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:22:13-47
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection"
+44-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:24:13-106
+45            android:hardwareAccelerated="true"
+45-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:25:13-47
+46            android:theme="@style/LaunchTheme"
+46-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:23:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:26:13-55
+48        </activity>
+49
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:31:9-33:33
+55            android:name="flutterEmbedding"
+55-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:32:13-44
+56            android:value="2" />
+56-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:33:13-30
+57        <meta-data
+57-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:34:9-35:73
+58            android:name="com.google.android.geo.API_KEY"
+58-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:34:20-65
+59            android:value="AIzaSyBpwmcmSSqJt_5SQS3E_UwxGY8dTbA_7Sc" />
+59-->/Users/divignanesh/Desktop/projects/location/android/app/src/main/AndroidManifest.xml:35:16-71
+60
+61        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+61-->[:firebase_database] /Users/divignanesh/Desktop/projects/location/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+61-->[:firebase_database] /Users/divignanesh/Desktop/projects/location/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+62            <meta-data
+62-->[:firebase_database] /Users/divignanesh/Desktop/projects/location/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+63-->[:firebase_database] /Users/divignanesh/Desktop/projects/location/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_database] /Users/divignanesh/Desktop/projects/location/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:firebase_core] /Users/divignanesh/Desktop/projects/location/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+66-->[:firebase_core] /Users/divignanesh/Desktop/projects/location/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_core] /Users/divignanesh/Desktop/projects/location/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-database:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/b209e261d80fe802c845d395e47d5649/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+69                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+69-->[com.google.firebase:firebase-database:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/b209e261d80fe802c845d395e47d5649/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-database:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/b209e261d80fe802c845d395e47d5649/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+71        </service>
+72
+73        <activity
+73-->[:url_launcher] /Users/divignanesh/Desktop/projects/location/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+74-->[:url_launcher] /Users/divignanesh/Desktop/projects/location/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+75            android:exported="false"
+75-->[:url_launcher] /Users/divignanesh/Desktop/projects/location/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+76-->[:url_launcher] /Users/divignanesh/Desktop/projects/location/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/4ebe119ef6f785c66e1535b687fc1de5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/2f220e4626961757d61af53add94b7ee/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/2f220e4626961757d61af53add94b7ee/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/2f220e4626961757d61af53add94b7ee/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/2f220e4626961757d61af53add94b7ee/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/d8e39c73a4f478ae10d146928d1079ae/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/d8e39c73a4f478ae10d146928d1079ae/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+88            android:authorities="com.lyokone.locationexample.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/d8e39c73a4f478ae10d146928d1079ae/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+89            android:exported="false"
+89-->[com.google.firebase:firebase-common:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/d8e39c73a4f478ae10d146928d1079ae/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+90            android:initOrder="100" />
+90-->[com.google.firebase:firebase-common:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/d8e39c73a4f478ae10d146928d1079ae/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/8fd4625575491c513375881a8b24d9b9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/8fd4625575491c513375881a8b24d9b9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/divignanesh/.gradle/caches/transforms-2/files-2.1/8fd4625575491c513375881a8b24d9b9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>
