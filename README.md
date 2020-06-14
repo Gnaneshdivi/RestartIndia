@@ -1,7 +1,7 @@
 
 # Name: Red Spot
 
-#### Click the link to [Download](https://docs.google.com/document/d/10BEP8H2m2Pt36CXD9pkTavUwN7wTBSkSn-cdjNFdIeE/edit) the Android application  
+#### Click the link to [Download](https://drive.google.com/file/d/1nEx5gwVYNvJPHn8TRr0o43zduGh7fB9k/view?usp=sharing) the Android application  
 
 ## This project tackles 2 major problems
 
