@@ -1,6 +1,8 @@
 
 # Name: Red Spot
 
+The pandemic has taken the whole world by storm. But now we have to fight against it. We have come up with a mobile application that can make a huge impact and can change the tide of this battle against covid 19.
+
 #### Click the link to [Download](https://drive.google.com/file/d/1nEx5gwVYNvJPHn8TRr0o43zduGh7fB9k/view?usp=sharing) the Android application  
 
 ## This project tackles 2 major problems
